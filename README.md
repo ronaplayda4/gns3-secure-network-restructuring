@@ -11,6 +11,38 @@ The following diagram shows the completed organizational network in GNS3.
 
 ![Completed GNS3 network topology](Screenshot%202026-08-13%20201631.png)
 
+## Configuration Evidence
+
+### BackboneSwitch — VLAN 1
+
+The backbone switch connects the firewall and routers through the central network infrastructure.
+
+![BackboneSwitch VLAN 1 configuration](Screenshot%202026-08-13%20201720.png)
+
+### Customer Experience — VLAN 2
+
+CustExpSwitch ports 0 through 6 were configured as access ports in VLAN 2.
+
+![Customer Experience VLAN 2 configuration](Screenshot%202026-08-13%20201750.png)
+
+### Human Resources — VLAN 3
+
+HRSwitch ports 0 through 3 were configured as access ports in VLAN 3.
+
+![Human Resources VLAN 3 configuration](Screenshot%202026-08-13%20201811.png)
+
+### Server Network — VLAN 4
+
+ServerSwitch ports 0 through 2 were configured as access ports in VLAN 4.
+
+![Server network VLAN 4 configuration](Screenshot%202026-08-13%20201832.png)
+
+### pfSense WAN Firewall Rules
+
+The firewall allows HTTP and HTTPS traffic to the designated WebServer and blocks those services from reaching other internal systems.
+
+![pfSense WAN firewall rules](Screenshot%202026-08-13%20201857.png)
+
 ## Objectives
 
 - Build an organized departmental network topology
