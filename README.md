@@ -5,6 +5,11 @@
 This project demonstrates how I restructured and secured a simulated organizational network in GNS3. I separated the Customer Experience, Human Resources, and server networks using VLANs. I also configured pfSense firewall rules to allow inbound HTTP and HTTPS traffic only to the designated WebServer.
 
 > This project was completed in a simulated lab environment for educational and portfolio purposes.
+> ## Network Topology
+
+The following diagram shows the completed organizational network in GNS3.
+
+![Completed GNS3 network topology](Screenshot%202026-08-13%20201631.png)
 
 ## Objectives
 
