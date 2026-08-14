@@ -92,7 +92,7 @@ The allow rules were placed above the block rules because pfSense evaluates fire
 
 - **Confidentiality:** VLAN separation limits unnecessary access to sensitive HR and authentication traffic.
 - **Integrity:** Segmentation and firewall rules reduce opportunities for unauthorized changes.
-- **Availability:** A problem in one VLAN is less likely to affect the entire organization.
+- **Availability:** A problem in one VLAN is less likely to affect the entire organization, helping maintain access to critical network services.
 
 ## Challenges and Lessons Learned
 
